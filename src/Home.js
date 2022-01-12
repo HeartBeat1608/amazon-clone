@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+
 function Home() {
   return (
     <div className="home">
@@ -15,10 +16,10 @@ function Home() {
           {/* Product */}
           <Product
             id="123456"
-            title="The lean startup"
-            price={29.99}
+            title="Janasya Women's Light Brown Poly Silk Straight Kurta"
+            price={410.99}
             image={
-              "https://images-na.ssl-images-amazon.com/images/I/51aEhyjQGrL._SX316_BO1,204,203,200_.jpg"
+              "https://m.media-amazon.com/images/I/71SRhc6ZkRL._UL1500_.jpg"
             }
             rating={5}
           />
