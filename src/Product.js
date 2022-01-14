@@ -1,12 +1,13 @@
 import React from "react";
 import "./Product.css";
-function Product({ id,title, image, price, rating }) {
+function Product({ id, title, image, price, rating }) {
+
   return (
     <div className="product">
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price">
-          <small>$</small>
+          <small style={{ paddingRight: 4 }}>$</small>
           <strong>{price}</strong>
         </p>
         <div className="product__rating">
@@ -21,6 +22,7 @@ function Product({ id,title, image, price, rating }) {
       <img
         src={image}
         alt=""
+        className="product__image"
       />
 
       <button>Add to basket</button>

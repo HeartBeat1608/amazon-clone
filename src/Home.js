@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import "./Home.css";
 import Product from "./Product";
 
@@ -33,8 +34,6 @@ function Home() {
             }
             rating={3}
           />
-        </div>
-        <div className="home__row">
           {/* Product */}
           <Product
             id="1683521"
@@ -68,15 +67,13 @@ function Home() {
           {/* Product */}
           <Product
             id="785461"
-            title='Aurion Knee Wraps (Pair) for Cross Training Gym Workout Weightlifting, Knee Straps for Squats - for Men & Women- 78"-Compression & Elastic Support.'
+            title='Aurion Knee Wraps (Pair) for Cross Training Gym Workout Weightlifting, Knee Straps for Squats - for Men &amp; Women- 78"-Compression &amp; Elastic Support.'
             price={399}
             image={
               "https://m.media-amazon.com/images/I/81Ai36Lew9S._SL1500_.jpg"
             }
             rating={4}
           />
-        </div>
-        <div className="home__row">
           {/* Product */}
           <Product
             id="8461230"
@@ -109,13 +106,11 @@ function Home() {
             }
             rating={3}
           />
-        </div>
 
-        <div className="home__row">
           {/* Product */}
           <Product
             id="9632585"
-            title="LG 35WN75C-B – 35” QHD (3440 x 1440) Curved Monitor with sRGB 99% Color Gamut and HDR 10 and USB-Type C (94W Power Delivery)"
+            title="LG 35WN75C-B &#8212; 35” QHD (3440 x 1440) Curved Monitor with sRGB 99% Color Gamut and HDR 10 and USB-Type C (94W Power Delivery)"
             price={"36,900"}
             image={
               "https://image-us.samsung.com/SamsungUS/home/computing/monitors/curved/pd/lc43j890dknxza/gallery/LC43J890DKNXZA_Gallery_1-G1.jpg?$product-details-jpg$"

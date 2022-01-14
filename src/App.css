@@ -1,0 +1,9 @@
+.footer__wrapper {
+  padding: 1rem;
+  background: #131921;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}

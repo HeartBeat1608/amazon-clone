@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./Header";
+import Layout from "./Layout";
 import Home from "./Home";
 import Checkout from "./Checkout";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -14,8 +14,9 @@ function App() {
             path="/"
             element={
               <>
-                <Header />
-                <Home />
+                <Layout>
+                  <Home />
+                </Layout>
               </>
             }
           />
@@ -23,9 +24,9 @@ function App() {
             path="/checkout"
             element={
               <>
-                <Header />
-                
-                <Checkout />
+                <Layout>
+                  <Checkout />
+                </Layout>
               </>
             }
           />
